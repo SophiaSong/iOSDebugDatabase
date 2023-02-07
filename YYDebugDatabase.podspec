@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   
   s.dependency 'GCDWebServer'
-  s.dependency 'FMDB'
 
   s.source_files = 'DebugDatabase/**/*.{h,m}', 'DebugDatabase/*.{h,m}'
   s.public_header_files = 'DebugDatabase/DebugDatabaseManager.h'
